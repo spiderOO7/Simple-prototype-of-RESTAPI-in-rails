@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  did: MyString
+  model: MyString
+  name: MyString
+  date1: 2020-01-10
+  date2: 
+
+two:
+  did: MyString
+  model: MyString
+  name: MyString
+  date1: 2020-01-10
+  date2: 
