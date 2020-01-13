@@ -10,7 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_10_025243) do
+ActiveRecord::Schema.define(version: 2020_01_13_010210) do
+
+  create_table "camps", force: :cascade do |t|
+    t.string "did"
+    t.string "model"
+    t.string "name"
+    t.date "sdata"
+    t.date "edate"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "forms", force: :cascade do |t|
     t.string "did"

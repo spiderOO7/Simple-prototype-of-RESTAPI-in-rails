@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Did:</strong>
+  <%= @camp.did %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @camp.model %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @camp.name %>
+</p>
+
+<p>
+  <strong>Sdata:</strong>
+  <%= @camp.sdata %>
+</p>
+
+<p>
+  <strong>Edate:</strong>
+  <%= @camp.edate %>
+</p>
+
+<%= link_to 'Edit', edit_camp_path(@camp) %> |
+<%= link_to 'Back', camps_path %>
