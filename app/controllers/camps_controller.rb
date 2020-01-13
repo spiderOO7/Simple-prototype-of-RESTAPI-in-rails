@@ -72,13 +72,3 @@ class CampsController < ApplicationController
       params.require(:camp).permit(:did, :model, :name, :sdata, :edate)
     end
 end
-
-## Routes
-#camps      GET     /camps(.:format)                                                                         camps#index
-#           POST    /camps(.:format)                                                                         camps#create
-#new_camp   GET     /camps/new(.:format)                                                                     camps#new
-#edit_camp  GET     /camps/:id/edit(.:format)                                                                camps#edit
-#camp       GET     /camps/:id(.:format)                                                                     camps#show
-#           PATCH   /camps/:id(.:format)                                                                     camps#update
-#           PUT     /camps/:id(.:format)                                                                     camps#update
-#           DELETE  /camps/:id(.:format)                                                                     camps#destroy
